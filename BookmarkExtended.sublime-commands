@@ -1,0 +1,4 @@
+[
+	{"caption": "BookmarkExtended: Show all bookmarks", "command": "quick_panel_bookmarks"},
+	{"caption": "BookmarkExtended: Dump bookmarks", "command": "dump_bookmarks"}
+]

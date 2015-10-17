@@ -1,0 +1,37 @@
+[
+	{ "caption": "Bookmark Extended",
+	  "children":[
+		{
+			"caption": "Toggle Bookmark",
+			"command": "toggle_bookmark"
+		},
+		{
+			"caption": "Clear Bookmarks",
+			"command": "clear_bookmarks"
+		},
+		{
+			"caption": "Comment this Bookmark",
+			"command": "set_bookmark_comment"
+		},
+		{
+			"caption": "Show all bookmarks",
+			"command": "quick_panel_bookmarks"
+		},
+		{
+			"caption": "Dump bookmarks",
+			"command": "dump_bookmarks"
+		},	
+		{"caption": "-"},
+		{"command": "select_bookmark_extended", "args": {"index": 0}},
+		{"command": "select_bookmark_extended", "args": {"index": 1}},
+		{"command": "select_bookmark_extended", "args": {"index": 2}},
+		{"command": "select_bookmark_extended", "args": {"index": 3}},
+		{"command": "select_bookmark_extended", "args": {"index": 4}},
+		{"command": "select_bookmark_extended", "args": {"index": 5}},
+		{"command": "select_bookmark_extended", "args": {"index": 6}},
+		{"command": "select_bookmark_extended", "args": {"index": 7}},
+		{"command": "select_bookmark_extended", "args": {"index": 8}},
+		{"command": "select_bookmark_extended", "args": {"index": 9}}
+		]
+	}
+]

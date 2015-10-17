@@ -1,0 +1,22 @@
+{
+
+	// If the following true, bookmarks on all views are selected 
+	"enable_all_views": true,
+
+	// This works properly on ST3 
+	// Highlight Bookmark. Scope is used for the coloring when it's enabled
+	"highlight_bookmark": false,
+	"highlight_socpe": "string",
+
+	// NOT YET IMPLEMENTED
+	// Header format when dumping Bookmarks. 
+	// You can use the following macro variable
+	// $file ... file name (if not, it'll be tab name)
+	// $file_path ... absolute file path (if not, it'll be tab name)
+	// $line ... line number of the bookmark
+	// $comment ... If the bookmark have no comment, it'll show nothing
+	"bookmark_dump_format": ["### $file($line)", 
+	                         "### $comment",
+	                         "$content",
+	                         "###"]
+}
